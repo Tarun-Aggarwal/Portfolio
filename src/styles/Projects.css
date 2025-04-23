@@ -1,0 +1,49 @@
+.projects {
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    /* margin: 20px; */
+}
+
+.skills {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill img{
+    height: 90px;
+    width: 90px;
+}
+
+.skill {
+    padding: 10px;
+    border: 4px solid transparent;
+    background-color: #7a1ea1;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #44bb44;
+    }
+    50% {
+        box-shadow: 0 0 20px #44bb44;
+    }
+    100% {
+        box-shadow: 0 0 5px #44bb44;
+    }
+}
+
+.skill:hover {
+    animation: glow 1.5s infinite;
+    transform: scale(1.08);
+}

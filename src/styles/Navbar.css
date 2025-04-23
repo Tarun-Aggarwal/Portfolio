@@ -1,0 +1,35 @@
+.navbar {
+    height: 60px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff007f;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar img {
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-right: 50px;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: #f8fafc;
+}
+
+.nav-options a:hover {
+    color: white;
+    text-shadow: 0 0 8px #8000ff;
+}
